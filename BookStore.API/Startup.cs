@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BookStore.API.Contracts;
 using BookStore.API.Services;
+using BookStore.API.Mappings;
+using AutoMapper;
 
 namespace BookStore.API
 {
@@ -40,6 +42,10 @@ namespace BookStore.API
                                                  builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
                                               );
                                   });
+            
+            services.AddAutoMapper(typeof(Maps));
+            
+
             services.AddControllers();
         }
 
