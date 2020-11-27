@@ -1,0 +1,10 @@
+2020-11-26 22:37:12.6613 INFO Getting all authors
+2020-11-26 22:39:33.5885 INFO Getting all authors
+2020-11-26 22:39:34.7730 ERROR Error getting list of authors SQLite Error 1: 'no such table: Authors'.
+2020-11-26 22:59:04.4271 INFO Getting author by 1
+2020-11-26 22:59:06.2214 ERROR Error getting list of authors SQLite Error 1: 'no such table: Authors'.
+2020-11-26 23:01:37.8556 INFO Getting author by 1
+2020-11-26 23:01:39.1594 ERROR Error getting list of authors SQLite Error 1: 'no such table: Authors'.
+2020-11-26 23:02:28.6711 INFO Getting author by 1
+2020-11-26 23:03:49.2024 INFO Getting author by 1
+2020-11-26 23:03:50.3867 INFO Author with id 1 not found

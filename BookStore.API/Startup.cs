@@ -38,6 +38,8 @@ namespace BookStore.API
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddSingleton<ILoggerService,LoggerService>();
+            services.AddScoped<IAuthorRepository,AuthorRepository>();
+            
             services.AddCors(c => {c.AddPolicy("corsPolicy",
                                                  builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
                                               );
